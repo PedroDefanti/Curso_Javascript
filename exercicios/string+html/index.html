@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const nome=prompt("Digite  o seu nome Completo CABAÇO:")
+        const nome_espaco=nome.replace(' ','')
+        document.body.innerHTML+=`Seu nome é:${nome} <br />`
+        document.body.innerHTML+=`Seu nome tem ${nome_espaco.length} letras <br />`
+        document.body.innerHTML+=`A segunda letra do seu nome é:${nome[1]} <br />`
+        document.body.innerHTML+=`Qual o primeiro índice da letra a no seu nome?:${nome.indexOf('a')}<br />`
+        document.body.innerHTML+=`Qual o ultimo índice da letra a no seu nome?:${nome.lastIndexOf('a')}<br />`
+        document.body.innerHTML+=`As últimas 3 letars do seu nome são:${nome.slice(-3)}<br />`
+        document.body.innerHTML+=`As palavras do seu nome são:${nome.split()}<br />`
+        document.body.innerHTML+=`Seu nome com letras maiúsculas:${nome.toUpperCase()}<br />`
+        document.body.innerHTML+=`Seu nome com letras minúsculas:${nome.toLowerCase()}<br />`
+
+    </script>
+</body>
+</html>
