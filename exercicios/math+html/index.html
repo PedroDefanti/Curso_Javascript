@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let num=prompt('Digite um número:')
+        let num2=parseInt(num)
+        document.body.innerHTML+=`Seu número é: ${num2}<br />`
+        document.body.innerHTML+=`Raiz quadrada é: ${num2**1/2}<br />`
+        document.body.innerHTML+=`${num2} é inteiro: ${Number.isInteger(num2)}<br />`
+        document.body.innerHTML+=`É NaN: ${Number.isNaN(num2)}<br />`
+        document.body.innerHTML+=`Arredondando para baixo: ${Math.floor(num2)}<br />`
+        document.body.innerHTML+=`Arredondando para cima: ${Math.ceil(num2)}<br />`
+        document.body.innerHTML+=`Com duas casas decimais: ${num2.toFixed(2)}<br />`
+    </script>
+</body>
+</html>
