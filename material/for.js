@@ -30,3 +30,10 @@ frutas.forEach(function(valor,indice){
     console.log(valor,indice)
 })
 
+const n=[10,20,30]
+let total=0
+
+n.forEach(valor=>{total+=valor})
+
+console.log(total)
+
