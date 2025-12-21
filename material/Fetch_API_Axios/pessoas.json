@@ -1,0 +1,152 @@
+[
+  {
+    "nome": "Miguel",
+    "email": "miguel@email.com.br",
+    "salario": 27211,
+    "estado": "MG",
+    "empresa": "Facebook",
+    "idade": 34,
+    "sexo": "M",
+    "cpf": "362.418.524-18"
+  },
+  {
+    "nome": "Sophia",
+    "email": "sophia@empresa.com.br",
+    "salario": 6971,
+    "estado": "PE",
+    "empresa": "Plastic Co.",
+    "idade": 25,
+    "sexo": "F",
+    "cpf": "742.316.671-52"
+  },
+  {
+    "nome": "Lucas",
+    "email": "lucas.silva@email.com.br",
+    "salario": 15800,
+    "estado": "SP",
+    "empresa": "Tech Solutions",
+    "idade": 29,
+    "sexo": "M",
+    "cpf": "123.456.789-10"
+  },
+  {
+    "nome": "Ana Carolina",
+    "email": "ana.carolina@empresa.com",
+    "salario": 22500,
+    "estado": "RJ",
+    "empresa": "Google Brasil",
+    "idade": 31,
+    "sexo": "F",
+    "cpf": "987.654.321-00"
+  },
+  {
+    "nome": "Pedro Henrique",
+    "email": "pedro.h@work.com.br",
+    "salario": 8900,
+    "estado": "BA",
+    "empresa": "StartUp Innovation",
+    "idade": 27,
+    "sexo": "M",
+    "cpf": "456.789.123-45"
+  },
+  {
+    "nome": "Juliana",
+    "email": "ju.santos@email.com.br",
+    "salario": 19200,
+    "estado": "RS",
+    "empresa": "Amazon Web Services",
+    "idade": 35,
+    "sexo": "F",
+    "cpf": "321.654.987-22"
+  },
+  {
+    "nome": "Rafael",
+    "email": "rafael.costa@company.br",
+    "salario": 12300,
+    "estado": "PR",
+    "empresa": "Volkswagen",
+    "idade": 28,
+    "sexo": "M",
+    "cpf": "159.753.486-33"
+  },
+  {
+    "nome": "Mariana",
+    "email": "mari.oliveira@work.com.br",
+    "salario": 25600,
+    "estado": "SC",
+    "empresa": "Microsoft",
+    "idade": 32,
+    "sexo": "F",
+    "cpf": "753.159.852-44"
+  },
+  {
+    "nome": "Gabriel",
+    "email": "gabriel.santos@email.br",
+    "salario": 14700,
+    "estado": "CE",
+    "empresa": "Petrobras",
+    "idade": 30,
+    "sexo": "M",
+    "cpf": "852.741.963-55"
+  },
+  {
+    "nome": "Beatriz",
+    "email": "bia.almeida@company.com.br",
+    "salario": 18900,
+    "estado": "GO",
+    "empresa": "Nubank",
+    "idade": 26,
+    "sexo": "F",
+    "cpf": "147.258.369-66"
+  },
+  {
+    "nome": "Thiago",
+    "email": "thiago.martins@work.br",
+    "salario": 21400,
+    "estado": "DF",
+    "empresa": "Banco do Brasil",
+    "idade": 33,
+    "sexo": "M",
+    "cpf": "369.147.258-77"
+  },
+  {
+    "nome": "Camila",
+    "email": "camila.ferreira@email.com",
+    "salario": 16500,
+    "estado": "ES",
+    "empresa": "Vale S.A.",
+    "idade": 29,
+    "sexo": "F",
+    "cpf": "258.369.147-88"
+  },
+  {
+    "nome": "Felipe",
+    "email": "felipe.rodrigues@company.br",
+    "salario": 11200,
+    "estado": "MT",
+    "empresa": "Agro Tech",
+    "idade": 24,
+    "sexo": "M",
+    "cpf": "963.852.741-99"
+  },
+  {
+    "nome": "Larissa",
+    "email": "larissa.lima@work.com.br",
+    "salario": 23800,
+    "estado": "PA",
+    "empresa": "Ambev",
+    "idade": 36,
+    "sexo": "F",
+    "cpf": "741.852.963-11"
+  },
+  {
+    "nome": "Bruno",
+    "email": "bruno.souza@email.br",
+    "salario": 17600,
+    "estado": "AM",
+    "empresa": "Samsung Brasil",
+    "idade": 31,
+    "sexo": "M",
+    "cpf": "852.963.741-22"
+  }
+]
