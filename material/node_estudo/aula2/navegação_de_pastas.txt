@@ -1,0 +1,3 @@
+quando se usa . vc avança
+quando se usa .. vc retrocede
+quando se usa / vc entra em uma pasta
