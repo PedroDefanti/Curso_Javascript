@@ -1,0 +1,50 @@
+existem algumas formas de criar routas no express
+
+1) pelo server.js
+
+ app.get('/testes/:id?/:parametro?',(requisicao,resposta)=>{// passar parametros
+     console.log(requisicao.params)
+       resposta.send('OPA')
+        resposta.send(requisicao.params.id)// assim eu pego o valor que 
+        for colocado na url,sem o valor que no caso é id,ele mostraria 
+     a chave
+
+})
+
+Exemplo de rota com comentários
+
+2) 1.1criando routes.js e um pasta controllers
+onde vc vai exportar o controllers
+
+controllers.home
+
+exports.PaginaInicial = (req, res) => {
+    res.send(`
+    <form action="/" method="POST">
+    NomePessoas: <input type="text" name="nome">
+    <button>Enviado</button>
+    </form>`)// apos a requisicao retorna
+}
+1.2 vc vai importar pelo routes.js e exportar o router
+const express=require('express')
+const route=express.Router()
+const homeController=require('./controllers/homeControllers')
+route.get('/',homeController.PaginaInicial)
+
+module.exports=route
+
+1.3
+importo o routes em server.js
+const routes=require('./routes')
+
+ uso esse routes
+app.use(routes)
+
+
+Resumindo
+
+No controllers eu coloco oq vai ter na rota
+
+no router.js eu falo qual o tipo  de rota:get,post,etc..
+
+server.js eu a rota de routes

@@ -1,0 +1,29 @@
+inicio:
+npm init -y(jeito curto)
+npm init (jeito longo)
+
+instalar(express):
+npm install express 
+
+para instalar em devDependencias:
+npm install express --save-dev
+
+
+para instalar em Dependencias do projeto:
+npm install express --save-prod
+
+para instalar uma versão especifica de algo:
+
+npm install express@2.1.0   <-Se colocar  o @ com espaço vai dar ruim
+
+atualizar o pacote instalado:
+npm update
+
+desinstalar(express):
+npm uninstall express 
+
+instalar webpack:
+npm i webpack --save-dev
+
+para ver se tem algum pacote desatualizado:
+npm outdated

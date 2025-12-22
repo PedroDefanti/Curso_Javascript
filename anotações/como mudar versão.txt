@@ -1,0 +1,11 @@
+2.       1.         0
+major   minor     patch
+
+correção de bug(não adicionei nada novo):2.1.1
+
+recurso novo sem alterar a major:2.2.0
+
+mecher na major(+ perigosa):3.0.0
+
+quando tiver ^ em  npm vai/pode,visualizar, atualizar na minor,patch
+quando tiver ~ em  npm vai atualizar,visualizar na patch
