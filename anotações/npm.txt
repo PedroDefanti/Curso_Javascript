@@ -27,3 +27,4 @@ npm i webpack --save-dev
 
 para ver se tem algum pacote desatualizado:
 npm outdated
+
